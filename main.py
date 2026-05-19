@@ -122,7 +122,7 @@ class App:
         source_var = tk.StringVar()
         dest_var = tk.StringVar()
         row_index = self.next_row_index
-        next_row_index += 1
+        self.next_row_index += 1
 
         if self.rows:
             dest_var.set(self.rows[0]["dest"].get())
